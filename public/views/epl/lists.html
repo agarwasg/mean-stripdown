@@ -1,0 +1,7 @@
+<section ng-controller="EPLController">
+ <h2>EPL Teams</h2>
+    <div ng-repeat="eplTeam in eplTeams">
+        <a href="#!/eplTeams/{{$index}}">{{eplTeam.team}} @ {{eplTeam.city}}</a>
+    </div>
+
+</section>
